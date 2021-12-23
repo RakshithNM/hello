@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,39,0.7679446778711485) 35%, rgba(0,212,255,1) 100%);
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  color: var(--app-text-color); 
+  font-family: var(--app-font);
+  font-size: var(--app-font-size);
+}

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "buildjs": "esbuild source/js/app.js --bundle --outfile=out.js --watch",
+    "buildjs": "esbuild source/js/app.js --bundle --outfile=output.js --watch",
     "buildcss": "esbuild source/css/index.css --bundle  --outfile=styles.css --watch",
     "build": "npm run buildjs & npm run buildcss"
   },
